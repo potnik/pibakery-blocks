@@ -1,0 +1,17 @@
+{
+	"name": "set_timezone",
+	"text": "Set Timezone\\nTimezone %1",
+	"script": "set_timezone.sh",
+	"network": false,
+	"continue": true,
+	"type": "setting",
+	"category": "setting",
+	"shortDescription":"A block to set timezone",
+	"longDescription":"This block lets you configure the US based timezone.",
+	"args": [
+		{
+			"type": "menu",
+			"options": ["America/Adak", "America/Anchorage", "America/Boise", "America/Chicago", "America/Denver", "America/Detroit", "America/Indiana/Indianapolis", "America/Indiana/Knox", "America/Indiana/Marengo", "America/Indiana/Petersburg", "America/Indiana/Tell_City", "America/Indiana/Vevay", "America/Indiana/Vincennes", "America/Indiana/Winamac", "America/Juneau", "America/Kentucky/Louisville", "America/Kentucky/Monticello", "America/Los_Angeles", "America/Menominee", "America/Metlakatla", "America/New_York", "America/Nome", "America/North_Dakota/Beulah", "America/North_Dakota/Center", "America/North_Dakota/New_Salem", "America/Phoenix", "America/Sitka", "America/Yakutat"]
+		}
+	]
+}
